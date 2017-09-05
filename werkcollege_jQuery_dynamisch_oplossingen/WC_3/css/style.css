@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+  font-size: 13px;
+}
+
+label {
+  display: inline-block;
+  min-width: 140px;
+  margin-top: 7px;
+}
+
+form {
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 20px;
+  max-width: 361px;
+}
+
+.input {
+  overflow: hidden;
+}
+
+input {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  margin: 4px;
+  height: 20px;
+  padding: 5px;
+}
+.error {
+  border-color: red;
+}
+input[type=submit] {
+  border-width: 0px;
+  background-color: gray;
+  height: 30px;
+  font-size: 14px;
+  width: 80px;
+  float: right;
+  cursor: pointer;
+  color: white;
+}
+
+input[type=submit]:hover {
+  background-color: darkgray;
+}
+
+div#foutmelding {
+  color: red;
+  font-size: 10px;
+}

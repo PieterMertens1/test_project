@@ -1,0 +1,154 @@
+
+.jumbotron {
+    background-image: url("img/jumbotron2.jpg");
+    background-repeat: no-repeat;
+    /*background-color: #00b94a;*/
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border: 0;
+    border-collapse: collapse;
+    /*margin-bottom: -40px;*/
+    z-index: 9999;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    float: none;
+    position: static;
+    opacity: 0.75;
+
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #019895 !important;
+    opacity: 1;
+}
+
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    opacity: 1 !important;
+    color: #00ff66 !important;
+    background-color: #ffffff !important;
+}
+.navbar-default .navbar-toggle {
+    opacity: 1;
+    border-color: transparent;
+    color: #fff !important;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.image {
+    height: auto;
+    width: 300px;
+}
+
+#sidebar-wrapper {
+    width: 20%;
+    position: relative;
+    float: left;
+}
+
+#sidebar-wrapper li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.alle-categorieen-groot {
+    position: relative;
+    padding-left: 5%;
+    height: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#alleCategorieen {
+    /*top: 30%;*/
+    top: 10%;
+    overflow-y: scroll;
+    max-height: 120px;
+
+}
+
+#allePosts {
+    padding-left: 5%;
+    position: relative;
+    /*top: 45%;*/
+    /*left: 25%;*/
+}
+
+.meer {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.col-sm-3:hover .img-responsive {
+    opacity: 0.3;
+}
+
+.col-sm-3:hover .meer {
+    opacity: 1;
+}
+
+.tekst {
+    background-color: #ffffff;
+    color: #019895;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.container-fluid a {
+    color: #333;
+}
+
+#blogpostDetail {
+    padding: 50px;
+    max-height: 720px;
+}
+
+#fotoDetails {
+    margin-left: 25%;
+    max-height: 400px;
+}
+
+.tekstje {
+    max-height: 200px;
+    background-color: #efff8c;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #8f8718;
+}
+
+.comment {
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.comment-text {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.login_comment {
+    padding: 50px;
+    padding-bottom: 100px;
+}
